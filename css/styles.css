@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.wrap {
+    display: inline-block;
+    margin: 0 40px 20px 0;
+    background: rgba(228, 225, 228, .5);
+}
+
+div {
+    width: 190px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.one, .four, .seven, .ten {
+    background: rgba(86, 135, 122, 0.4);
+}
+
+.three, .six, .nine {
+    background: rgba(255, 25, 0, 0.4);
+}
+
+.two, .five, .eight {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.one:hover {
+    background-color: #FFFFFF;
+    transition-property: #FFFFFF;
+    transition-duration: 1000ms;
+    transition-timing-function: linear;
+    transition-delay: 500ms;
+}
+
+.two:hover {
+    background-color: #000000;
+    transition-property: #000000;
+    transition-duration: 3594ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms;
+}
+
+.three:hover {
+    transform: scaleY(-4);
+}
+
+.four:hover {
+    transform: scaleY(1.2);
+}
+
+.five:hover {
+    
+    transform: scaleX(-1);
+}
+
+.six:hover {
+    transform: skew(30deg);
+}
